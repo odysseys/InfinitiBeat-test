@@ -1,0 +1,32 @@
+
+.webpage {
+  /*width: A4;*/
+  padding: 20px;
+}
+
+.lucas-pell-table th, td {
+  background-color: lightgray;
+}
+
+th, td {
+  padding: 7px 10px 10px 10px;
+}
+
+th {
+  border-bottom: 2px solid #111111;
+  border-top: 1px solod #999;
+  text-align: left;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display:table;
+  line-height:0;
+  content:"";
+}
+.clearfix:after {
+  clear:both;
+}
+.clearfix {
+  *zoom: 1;
+}

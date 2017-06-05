@@ -1,0 +1,72 @@
+#container3 {
+  width: 845px;
+  height: 471px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -422.5px;
+  margin-top: -235.5px;
+  z-index: 1;
+  overflow: hidden;
+  background-image: url("/img/abui/03/whitebg.png");
+  /*background-position: right;*/
+}
+
+#mask {
+  width: 0px;
+  height: 471px;
+  position: absolute;
+  right: 0px;
+  bottom:0px;
+  background-image: url("/img/abui/03/bluer.png");
+  background-position: right;
+  z-index: 2;
+}
+
+#blackbar {
+  position: absolute;
+  bottom: 0;
+  width: 559px;
+  height: 41px;
+  background-image: url("/img/abui/03/blackbar.png");
+  background-size: 559px 41px;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+#icon1, #icon2, #icon3, #icon4, #icon5, #icon6 {
+  position: absolute;
+  bottom: 8px;
+}
+
+#icon1 {
+  left: 3%;
+}
+#icon2 {
+  left: 59%;
+}
+#icon3 {
+  left: 67%;
+}
+#icon4 {
+  left: 75%;
+}
+#icon5 {
+  left: 83%;
+}
+#icon6 {
+  left: 91%;
+}
+
+#blackc {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -513px;
+  margin-top: -90.5px;
+  width: 181px;
+  height: 181px;
+  background-image: url("/img/abui/03/blackc.png");
+  background-repeat: no-repeat;
+  z-index: 2;
+}

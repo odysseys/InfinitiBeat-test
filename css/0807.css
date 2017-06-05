@@ -1,0 +1,78 @@
+.article_title {
+  color: #15baef;
+  text-indent: 0;
+}
+.author_date {
+  font-size: 80%;
+  text-indent: 0;
+  /*border-width: 100px 50px;
+  border-style: solid;
+  border-color: transparent;*/
+  margin: 20px 0;
+}
+.author {
+  color: lightgray;
+}
+.article_area {
+  background-color: #F7F7F7;
+  text-indent: 2em;
+  padding: 20px;
+}
+.webpage {
+  /*width: A4;*/
+  padding: 20px;
+}
+
+.like-button {
+  border-top: 1px solid #96d1f8;
+  background: #65a9d7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+  background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+  background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+  background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+  background: -o-linear-gradient(top, #3e779d, #65a9d7);
+  padding: 9.5px 19px;
+  -webkit-border-radius: 29px;
+  -moz-border-radius: 29px;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+  -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+  box-shadow: rgba(0,0,0,1) 0 1px 0;
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  color: white;
+  font-size: 20px;
+  font-family: Helvetica, Arial, Sans-Serif;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.like-button:hover {
+  border-top-color: #28597a;
+  background: #28597a;
+  color: #fff;
+}
+.like-button:active {
+  border-top-color: #1b435e;
+  background: #1b435e;
+}
+
+.like-text {
+  display: none;
+}
+
+.like-text.show {
+  display: initial;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display:table;
+  line-height:0;
+  content:"";
+}
+.clearfix:after {
+  clear:both;
+}
+.clearfix {
+  *zoom: 1;
+}

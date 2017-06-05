@@ -1,0 +1,32 @@
+#a {
+	float: left;
+	background-color: red;
+}
+#b {
+	float: left;
+	background-color: blue;
+}
+#c {
+	background-color: yellow;
+}
+#d {
+
+}
+.article-content {
+	padding: 10px;
+	border: 10px solid green;
+	margin: 10px;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display:table;
+  line-height:0;
+  content:"";
+}
+.clearfix:after {
+  clear:both;
+}
+.clearfix {
+  *zoom: 1;
+}
