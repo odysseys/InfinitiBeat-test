@@ -39,7 +39,7 @@
   height: 280px;
   overflow: hidden;
   z-index: 1;
-  background-image: url('/img/abui/02/bluet.png');
+  background-image: url('img/abui/02/bluet.png');
   background-position: left top;
 }
 #mask {
