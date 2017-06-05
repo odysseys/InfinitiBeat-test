@@ -1,32 +1,50 @@
 <!DOCTYPE html>  <!--文件格式宣告，我是一個html5檔案-->
-<html ng-app="route">
-  <head>
-    <link rel="stylesheet" href="css/abui01.css"/>
-    <link rel="stylesheet" href="css/abui02.css"/>
-    <link rel="stylesheet" href="css/abui03.css"/>
-    <title>InfinitiBeat Intern A-bui project</title>  <!--視窗標頭-->
-    <meta charset="utf-8"/>  <!--針對檔案的描述，編碼-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineLite.min.js"></script> -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.min.js"></script>
-  </head>
-  <body class="webpage">
-  <button id="btn1">ANIMATE1</button>
-  <button id="btn2">ANIMATE2</button>
-  <button id="btn3">ANIMATE3</button>
-  <div id="bg"></div>
-    <nav>
-      <a href="#/1"><img src="img/abui/nav1.png" id="nav1" class="navi"></a>
-      <a href="#/1"><img src="img/abui/nav2.png" id="nav2" class="navi"></a>
-      <a href="#/1" id="menu1" class="menu"><div class="menu-text">IT'S A NEW BROWSER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></a>
-      <a href="#/2" id="menu2" class="menu"><span class="menu-text">FULL SCREEN BROWSING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
-      <a href="#/3" id="menu3" class="menu"><span class="menu-text">MULTITASKING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
-    </nav>
-    <main ng-view>
-    </main>
-    <script src="javascript/abui01.js"></script>
-  </body>
+<html>
+<head>
+<style type=text/css>
+	#ibintern {
+		color: blue;
+		background: yellow;
+		/*width: 100px;*/
+		display: inline-block;
+	}
+	.list1 {
+		color: red;
+	}
+	.list2 {
+		color: #08c; /*color is green.*/
+	}
+	a {
+		color: rgb(150, 150, 150);
+	}
+	/*
+	li {
+		display: inline-block;
+		text-indent: 0;
+	}
+	*/
+</style>
+<title>InfinitiBeat Intern Test Site</title>  <!--視窗標頭-->
+<meta charset="utf-8"/>  <!--針對檔案的描述，編碼-->
+</head>
+<body>
+<!--
+comment
+-->
+<h1 id="ibintern">This is a test site for infinitiBeat developer intern. TESTTEST</h1>
+<a href="http://www.yahoo.com.tw" target="_blank">YAHOO link</a>
+<ol>
+	<li class="list1 list2">1</li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+</ol>
+<ul>
+	<li class="list1">a<a href="http://www.yahoo.com.tw" target="_blank">YAHOO link</a></li>
+	<li>b</li>
+	<li>c</li>
+	<li>d</li>
+</ul>
+<img src="https://s.yimg.com/bt/api/res/1.2/07l7PoUaRcS6Gj2FV9QmZA--/YXBwaWQ9eW5ld3M7Zmk9aW5zZXQ7aD03MjA7cT03OTt3PTEyODA-/http://media.zenfs.com/en-US/video/wall_street_journal_733/7bceddc5524f74a7a272439e03e232be" title="disaster"/>
+</body>
 </html>
