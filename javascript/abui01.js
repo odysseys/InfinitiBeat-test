@@ -56,15 +56,15 @@ var IEIntro = angular.module('route', ['ngRoute', 'acontrollers']);
 IEIntro.config(['$routeProvider', function($routeProvider){
   $routeProvider.
     when('/1',{
-      templateUrl: '/abui/01.html',
+      templateUrl: 'abui/01.html',
       controller: 'a01'
     }).
     when('/2',{
-      templateUrl: '/abui/02.html',
+      templateUrl: 'abui/02.html',
       controller: 'a02'
     }).
     when('/3',{
-      templateUrl: '/abui/03.html',
+      templateUrl: 'abui/03.html',
       controller: 'a03'
     }).
     otherwise({
